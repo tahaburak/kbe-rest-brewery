@@ -6,7 +6,7 @@ You can access the API documentation [here](https://sfg-beer-works.github.io/bre
 
 ### Commands
 ``` docker build -f ./src/main/dockerBase/Dockerfile -t kbe-rest . ```
-``` docker run -p 8080:8080 -d kbe-rest ```
+``` docker run -p 8080:8080 -d --name kbe-rest kbe-rest  ```
 
 ## Connect with Spring Framework Guru
 * Spring Framework Guru [Blog](https://springframework.guru/)
